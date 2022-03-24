@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/assets/css/app.css -o ./public/assets/css/app.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "tailwindcss-rtl": "^0.9.0"
+  }
+}
